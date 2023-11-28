@@ -3,11 +3,11 @@
 # General Usage
 - From the root directory you'll run:
 ```
-docker build -t project1:latest -f docker/Dockerfile .
+docker build -t code-list:latest -f docker/Dockerfile .
 ```
 - Then you'll run:
 ```
-docker run --name project1 -v <location_to_root_folder>:/project1 -it project1
+docker run --name code-list -v <location_to_root_folder>:/code-list -it code-list
 ```
 - Once inside container and ready to test:
 ```
